@@ -20,6 +20,7 @@
     margin: 0 auto;
     width: 84%;
     top: 20px;
+    z-index: 99999;
 }
 
 .btn-wallet {
@@ -45,6 +46,7 @@
     height: 39px;
     float: right;
     cursor: pointer;
+    text-align: center;
 }
 
 .btn-wallet span {
@@ -68,15 +70,15 @@
   border: none!important;
   position: relative;
   bottom: 46px;
-  left: 42px;
+  left: 93px;
 }
 
 #buy_btn{
   color: #000000!important;
   border: none!important;
   position: relative;
-  bottom: 46px;
-  left: 45px;
+  bottom: 44px;
+  left: 83px;
 }
 
 /* .btn-wallet:hover {
