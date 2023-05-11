@@ -7,6 +7,44 @@
     font-family: Arboria;
 }
 
+#overlay {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 2;
+  cursor: pointer;
+}
+
+#overlay {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(10, 49, 97, 0.75);
+  z-index: 2;
+  cursor: pointer;
+}
+
+#text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 50px;
+  color: white;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+}
+
 .bg-amweriswap-content1 {
     background-image: url(image/bg/bg2.png);
     background-size: cover;
@@ -69,17 +107,11 @@
 #sell_btn {
   color: #000000!important;
   border: none!important;
-  position: relative;
-  bottom: 46px;
-  left: 93px;
 }
 
 #buy_btn{
   color: #000000!important;
   border: none!important;
-  position: relative;
-  bottom: 44px;
-  left: 83px;
 }
 
 /* .btn-wallet:hover {
@@ -185,9 +217,8 @@
     width: 38px;
     position: relative;
     top: 30px;
-    
+    left: 10px;
 }
-
 .swap-box1 .from {
     color: #35AFEB;
     height: 30px;
@@ -203,7 +234,18 @@
 }
 
 .swap-box1 .first-row {
-    height: 157px;
+    height: auto;
+}
+
+.swap-box1 .first-row .col-md-5 {
+    position: relative;
+}
+
+.btn-sell-buy #sell_btn, .btn-sell-buy #buy_btn {
+    position: relative;
+    bottom: 44px;
+    float: right;
+    right: 8px;
 }
 
 .content2-2nd {
@@ -222,6 +264,7 @@
     border: 1px solid #e2dede;
     border-radius: 10px;
     box-shadow: 0px 2px 9px 0px #B31942;
+    position: relative;
 }
 
 .content2 h1 {
