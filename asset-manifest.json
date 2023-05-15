@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "./static/css/main.237096f4.chunk.css",
-    "main.js": "./static/js/main.6f7f9620.chunk.js",
-    "main.js.map": "./static/js/main.6f7f9620.chunk.js.map",
-    "runtime-main.js": "./static/js/runtime-main.f0553228.js",
-    "runtime-main.js.map": "./static/js/runtime-main.f0553228.js.map",
-    "static/js/2.c0d324f6.chunk.js": "./static/js/2.c0d324f6.chunk.js",
-    "static/js/2.c0d324f6.chunk.js.map": "./static/js/2.c0d324f6.chunk.js.map",
-    "static/js/3.0c20df9c.chunk.js": "./static/js/3.0c20df9c.chunk.js",
-    "static/js/3.0c20df9c.chunk.js.map": "./static/js/3.0c20df9c.chunk.js.map",
-    "static/js/4.6e8d6a9c.chunk.js": "./static/js/4.6e8d6a9c.chunk.js",
-    "static/js/4.6e8d6a9c.chunk.js.map": "./static/js/4.6e8d6a9c.chunk.js.map",
+    "main.js": "./static/js/main.b03318ef.chunk.js",
+    "main.js.map": "./static/js/main.b03318ef.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.118bde1d.js",
+    "runtime-main.js.map": "./static/js/runtime-main.118bde1d.js.map",
+    "static/js/2.d39fdf64.chunk.js": "./static/js/2.d39fdf64.chunk.js",
+    "static/js/2.d39fdf64.chunk.js.map": "./static/js/2.d39fdf64.chunk.js.map",
+    "static/js/3.1ffbf820.chunk.js": "./static/js/3.1ffbf820.chunk.js",
+    "static/js/3.1ffbf820.chunk.js.map": "./static/js/3.1ffbf820.chunk.js.map",
+    "static/js/4.ad213888.chunk.js": "./static/js/4.ad213888.chunk.js",
+    "static/js/4.ad213888.chunk.js.map": "./static/js/4.ad213888.chunk.js.map",
     "static/js/5.9efc24db.chunk.js": "./static/js/5.9efc24db.chunk.js",
     "static/js/5.9efc24db.chunk.js.map": "./static/js/5.9efc24db.chunk.js.map",
     "index.html": "./index.html",
     "static/css/main.237096f4.chunk.css.map": "./static/css/main.237096f4.chunk.css.map",
-    "static/js/2.c0d324f6.chunk.js.LICENSE.txt": "./static/js/2.c0d324f6.chunk.js.LICENSE.txt",
+    "static/js/2.d39fdf64.chunk.js.LICENSE.txt": "./static/js/2.d39fdf64.chunk.js.LICENSE.txt",
     "static/media/arbitrum.a6d6bd7a.png": "./static/media/arbitrum.a6d6bd7a.png",
     "static/media/bnbchain.2882cf25.png": "./static/media/bnbchain.2882cf25.png",
     "static/media/coinbase.b07b5b36.png": "./static/media/coinbase.b07b5b36.png",
@@ -23,9 +23,9 @@
     "static/media/metamask.64800ecb.png": "./static/media/metamask.64800ecb.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.f0553228.js",
-    "static/js/2.c0d324f6.chunk.js",
+    "static/js/runtime-main.118bde1d.js",
+    "static/js/2.d39fdf64.chunk.js",
     "static/css/main.237096f4.chunk.css",
-    "static/js/main.6f7f9620.chunk.js"
+    "static/js/main.b03318ef.chunk.js"
   ]
 }
