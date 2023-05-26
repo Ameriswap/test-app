@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "./static/css/main.237096f4.chunk.css",
-    "main.js": "./static/js/main.c86451a6.chunk.js",
-    "main.js.map": "./static/js/main.c86451a6.chunk.js.map",
-    "runtime-main.js": "./static/js/runtime-main.b9abed7c.js",
-    "runtime-main.js.map": "./static/js/runtime-main.b9abed7c.js.map",
-    "static/js/2.6fff6a74.chunk.js": "./static/js/2.6fff6a74.chunk.js",
-    "static/js/2.6fff6a74.chunk.js.map": "./static/js/2.6fff6a74.chunk.js.map",
-    "index.html": "./index.html",
-    "static/css/main.237096f4.chunk.css.map": "./static/css/main.237096f4.chunk.css.map",
-    "static/js/2.6fff6a74.chunk.js.LICENSE.txt": "./static/js/2.6fff6a74.chunk.js.LICENSE.txt",
-    "static/media/arbitrum.a6d6bd7a.png": "./static/media/arbitrum.a6d6bd7a.png",
-    "static/media/bnbchain.2882cf25.png": "./static/media/bnbchain.2882cf25.png",
-    "static/media/coinbase.b07b5b36.png": "./static/media/coinbase.b07b5b36.png",
-    "static/media/eth.23ca4a5f.png": "./static/media/eth.23ca4a5f.png",
-    "static/media/metamask.64800ecb.png": "./static/media/metamask.64800ecb.png"
+    "main.css": "/static/css/main.772e2f93.chunk.css",
+    "main.js": "/static/js/main.b4706155.chunk.js",
+    "main.js.map": "/static/js/main.b4706155.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c16d1b2b.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c16d1b2b.js.map",
+    "static/js/2.5c265b4b.chunk.js": "/static/js/2.5c265b4b.chunk.js",
+    "static/js/2.5c265b4b.chunk.js.map": "/static/js/2.5c265b4b.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.772e2f93.chunk.css.map": "/static/css/main.772e2f93.chunk.css.map",
+    "static/js/2.5c265b4b.chunk.js.LICENSE.txt": "/static/js/2.5c265b4b.chunk.js.LICENSE.txt",
+    "static/media/arbitrum.a6d6bd7a.png": "/static/media/arbitrum.a6d6bd7a.png",
+    "static/media/bnbchain.2882cf25.png": "/static/media/bnbchain.2882cf25.png",
+    "static/media/coinbase.b07b5b36.png": "/static/media/coinbase.b07b5b36.png",
+    "static/media/eth.23ca4a5f.png": "/static/media/eth.23ca4a5f.png",
+    "static/media/metamask.64800ecb.png": "/static/media/metamask.64800ecb.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.b9abed7c.js",
-    "static/js/2.6fff6a74.chunk.js",
-    "static/css/main.237096f4.chunk.css",
-    "static/js/main.c86451a6.chunk.js"
+    "static/js/runtime-main.c16d1b2b.js",
+    "static/js/2.5c265b4b.chunk.js",
+    "static/css/main.772e2f93.chunk.css",
+    "static/js/main.b4706155.chunk.js"
   ]
 }
