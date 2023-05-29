@@ -6,6 +6,12 @@
     .desktop {
         display:none;
     }
+    .btn-wallet,.btn-dashboard{
+        margin-top: 10px;
+    }
+    .btn-wallet,.btn-dashboard{
+        margin-right: 10px;
+    }
     .header-content1,
     .header-content2 {
       width: 100%;
@@ -90,6 +96,14 @@
         padding: 32px;
     }
 
+    .swap-box2 .col-md-6 {
+        text-align: center;
+    }
+
+    .swap-box2 canvas {
+        display: inline!important;
+    }
+
     .swap-box2 ul{
         padding-left: 0rem;
     }
@@ -136,15 +150,17 @@
     }
     .bg-amweriswap-section5 span
     {
-        width: 100%;
+        width: 90%;
+        text-align: left;
     }
     .swap-box-5{
         width: 90%;
         margin: 0px 0px 17px 0px;
+        background-size: contain;
     }
     .bg-amweriswap-section6
     {
-        width: 95%;
+        width: 90%;
         height: auto;
     }
     .bg-amweriswap-content6
@@ -186,7 +202,10 @@
 
   }
 
-  @media only screen and (max-width: 300px) {
+  @media only screen and (max-width: 367px) {
+    #text {
+        font-size: 16px;
+    }
     .mobile {
         display:block;
     }
@@ -236,7 +255,9 @@
 
   /* Landscape */
   @media only screen and (max-width: 900px) and (min-width: 600px) {
-
+    .btn-wallet,.btn-dashboard{
+        margin-right: 10px;
+    }
     .header-menu
     {
         width: 90%;
@@ -416,7 +437,7 @@
     }
     .bg-amweriswap-section6, .header-content1
     {
-                width: 100%;
+        width: 100%;
     }
 
   
