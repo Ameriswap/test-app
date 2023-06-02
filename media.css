@@ -29,6 +29,7 @@
     .header-menu
     {
      position: relative;
+     width: 93%;
     }
     .connect-wallet-menu {
         float: none;
