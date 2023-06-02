@@ -24,7 +24,7 @@ font-style : normal;
 }
 
 .desktop {
-    display:block;
+    display:inline;
 }
 
 #overlay {
@@ -81,6 +81,14 @@ font-style : normal;
     z-index: 99999;
 }
 
+.connect-wallet-menu {
+    float: right;
+}
+
+.connect-network-menu {
+    float: right;
+}
+
 .btn-wallet {
     background: #B31942;
     width: 190px;
@@ -114,6 +122,25 @@ font-style : normal;
 }
 
 .btn-dashboard:hover,.btn-dashboard:active {
+    background: #B31942;
+    box-shadow: 0px 3px 6px 0px #ffe5e5;
+    color: #fff;
+}
+
+.portal {
+    background: #fff;
+    width: 190px;
+    border: 0;
+    border-radius: 50px;
+    padding: 5px;
+    color: #B31942;
+    box-shadow: 0px 3px 6px 0px #B31942;
+    height: 39px;
+    float: right;
+    text-align: center;
+}
+
+.portal:hover,.portal:active {
     background: #B31942;
     box-shadow: 0px 3px 6px 0px #ffe5e5;
     color: #fff;
@@ -279,6 +306,7 @@ font-style : normal;
     position: relative;
     top: 30px;
     left: 10px;
+    cursor: pointer;
 }
 .swap-box1 .from {
     color: #35AFEB;
@@ -315,11 +343,20 @@ font-style : normal;
     display: inline-block;
 }
 
+.MuiSkeleton-root {
+    width: 140px;
+    height: 30px!important;
+}
+
+.portal {
+    margin-right: 14px;
+}
+
 .swap-box2 {
-    /* background-image: url("image/dummy_portfolio.png");
+    background-image: url("image/dummy_portfolio.png");
     background-repeat: no-repeat;
     background-position: center; 
-    background-color: #0A3060; */
+    background-color: #0A3060;
     width: 675px;
     height: 300px;
     border: 1px solid #e2dede;
