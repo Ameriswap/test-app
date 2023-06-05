@@ -76,7 +76,7 @@ font-style : normal;
 .header-menu {
     position: fixed;
     margin: 0 auto;
-    width: 75%;
+    width: 82%;
     top: 20px;
     z-index: 99999;
 }
