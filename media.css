@@ -43,6 +43,7 @@
     .content1 h1
     {
         font-size: 32px;
+        height: 84px;
     }
     .content1 h6
     {
@@ -95,8 +96,13 @@
         background-color: #0A3161;
     }
 
+    .bg-amweriswap-section4 h1 {
+        margin: 0 auto;
+        width: 95%;
+    }
+
     .container-header {
-        height: 974px;
+        height: 937px;
         background: #0A3161;
     }
 
@@ -210,7 +216,7 @@
     }
     footer
     {
-        height: 400px;
+        height: auto;
     }
     .footer-content-left
     {
@@ -220,15 +226,27 @@
     {
         width: 100%;
         top: 0;
+        right: 8px;
     }
     .footer-section
     {
         width: 90%;
-        height: 222px!important;
+        height: auto;
+    }
+    .footer-section .row:nth-child(2) {
+        margin-top: 35px;
+    }
+    .footer-container {
+        background: #0A3161;
+    }
+
+    .newsletter {
+        float: none;
+        margin-top: 28px;
     }
     .copyright
     {
-        top:313px;
+        top:10px;
     }
 
   }

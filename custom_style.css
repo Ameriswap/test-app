@@ -233,7 +233,7 @@ font-style : normal;
     text-align: center;
     display: inline-block;
     position: relative;
-    top: 80px;
+    top: 115px;
     left: 45px;
 }
 
@@ -249,7 +249,7 @@ font-style : normal;
     font-weight: bold;
     font-size: 25px;
     position: relative;
-    top: 47px;
+    top: 0;
 }
 
 .content1 p {
@@ -688,6 +688,7 @@ font-style : normal;
 footer {
     height: 261px;
     background-color: #022A57;
+    margin: 0 auto;
 }
 
 footer p {
@@ -699,8 +700,12 @@ footer p {
     margin: 0 auto;
     padding-top: 40px;
     height: 200px;
-    border-bottom: 1px solid #B31942;
     position: relative;
+}
+
+.footer-section .row:first-child {
+    border-bottom: 1px solid #B31942;
+    padding-bottom: 15px;
 }
 
 .footer-section img {
@@ -722,7 +727,7 @@ footer p {
 .footer-content-right {
     float: right;
     position: relative;
-    top: 69px;
+    top: 12px;
 }
 
 .footer-content-right p {
@@ -730,6 +735,23 @@ footer p {
 }
 
 .footer-content-right h6 {
+    color: #B31942;
+}
+
+.footer-content-right span {
+    cursor: pointer;
+}
+
+.footer-content-right svg {
+    vertical-align: top;
+    background: #B31942;
+    color: #022A57;
+    border-radius: 3px;
+    margin: 8px;
+}
+
+.footer-content-right svg:hover, .footer-content-right svg:active{
+    background: #022A57;
     color: #B31942;
 }
 
@@ -747,7 +769,46 @@ footer p {
     padding-top: 10px;
 }
 
-.copyright {
+.newsletter {
+    float: right;
+}
+
+.newsletter h1 {
+    font-size: 22px;
+    color: #B31942;
+}
+
+.newsletter p, .newsletter label {
+    color: #b1adad;
+}
+
+.newsletter input[type=email] {
+    background: rgba(94, 108, 124, 0.32);
+    border: none;
+    color: #fff;
+}
+
+.newsletter input::placeholder {
+    color: #696F80;
+}
+
+.newsletter svg {
+    color: #0A3161;
+}
+
+.newsletter svg:hover,.newsletter svg:active {
+    color: #B31942;
+}
+
+.newsletter .input-group-append {
     position: absolute;
-    top: 214px;
+    right: 6px;
+    top: 4px;
+    cursor: pointer;
+    z-index: 999999999;
+}
+
+.copyright {
+    position: relative;
+    top: 15px;
 }
