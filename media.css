@@ -43,7 +43,7 @@
     .content1 h1
     {
         font-size: 32px;
-        height: 84px;
+        height: 108px;
     }
     .content1 h6
     {
@@ -59,7 +59,7 @@
     .bg-amweriswap-section
     {
         width:100%;
-        padding-top: 0!important;
+        padding-top: 25px!important;
     }
    
     .bg-amweriswap-section-right
