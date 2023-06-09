@@ -1,3 +1,83 @@
+
+@media only screen and (max-width: 367px) {
+    #text {
+        font-size: 16px;
+    }
+    .mobile {
+        display:block;
+    }
+    
+    .desktop {
+        display:none;
+    }
+    .swap-box-3
+    {
+        width:40%;
+        height: auto;
+        padding: 12px 0px 21px 17px!important;
+    }
+    .swap-box-3 span.green {
+        float: none!important;
+        margin-right: 0!important;
+        margin-top: 0!important;
+    }
+    .content1 img.future {
+        width: 250px;
+        
+    }
+    .bg-amweriswap-section6 .phone {
+        width: 100%;
+    }
+    .bg-amweriswap-section6 .appstore
+    {
+        width: 230px;
+    }
+    footer
+    {
+        height: 440px;
+    }
+    .copyright
+    {
+        top:365px;
+    }
+    .swap-box-3 h5
+    {
+        font-size: 16px;
+    }
+    .content1 h1
+    {
+        font-size: 27px;
+    }
+  }
+
+@media only screen and (max-width: 425px) {
+    .swap-box-3 span.red {
+        margin-top: 0px;
+        float: none;
+    }
+    .bg-amweriswap-section-defi {
+        width: 90% !important;
+    }
+    .css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+        font-size: 0.675rem !important;
+        min-width: 70px !important;
+    }
+  }
+
+@media only screen and (max-width: 520px) {
+    .footer-section .row .col-md-3 {
+        width: 50% !important;
+        margin: auto;
+        padding: 30px 10px 30px 10px;
+    }
+    .footer-section img {
+        width: 100px;
+        display: block;
+        margin: auto;
+        padding-bottom: 30px;
+    }
+  }
+
 @media only screen and (max-width: 600px) {
     .btn-wallet {
         width: 100%;
@@ -54,7 +134,7 @@
         
     }
     .bg-amweriswap-content5 {
-        height: 520px;
+        height: 570px;
     }
     .bg-amweriswap-section
     {
@@ -207,7 +287,9 @@
     .bg-amweriswap-section6 .left-section
     {
         width: 90%;
+        margin: auto;
         padding-top: 0px;
+        text-align: center;
     }
     .bg-amweriswap-section6 .phone
     {
@@ -220,12 +302,15 @@
     .footer-content-left
     {
         width:100%;
+        text-align: center;
     }
     .footer-content-right
     {
         width: 100%;
-        top: 0;
+        top: 15px;
         right: 8px;
+        display: flex;
+        justify-content: center;
     }
     .footer-section
     {
@@ -250,56 +335,6 @@
 
   }
 
-  @media only screen and (max-width: 367px) {
-    #text {
-        font-size: 16px;
-    }
-    .mobile {
-        display:block;
-    }
-    
-    .desktop {
-        display:none;
-    }
-    .swap-box-3
-    {
-        width:40%;
-        height: auto;
-        padding: 12px 0px 21px 17px!important;
-    }
-    .swap-box-3 span.green {
-        float: none!important;
-        margin-right: 0!important;
-        margin-top: 0!important;
-    }
-    .content1 img.future {
-        width: 250px;
-        
-    }
-    .bg-amweriswap-section6 .phone {
-        width: 100%;
-    }
-    .bg-amweriswap-section6 .appstore
-    {
-        width: 230px;
-    }
-    footer
-    {
-        height: 440px;
-    }
-    .copyright
-    {
-        top:365px;
-    }
-    .swap-box-3 h5
-    {
-        font-size: 16px;
-    }
-    .content1 h1
-    {
-        font-size: 27px;
-    }
-  }
 
   /* Landscape */
   @media only screen and (max-width: 900px) and (min-width: 600px) {
@@ -418,6 +453,16 @@
 
 }
 
+@media only screen and (max-width: 625px) {
+    .header-menu .mobile {
+        display: inline;
+    }
+    .header-menu .desktop {
+        display: none;
+    }
+
+}
+
 @media only screen and (min-width: 900px) and (max-width: 1180px) {
     .content1 img.future {
         width: 575px;
@@ -433,7 +478,7 @@
     .bg-amweriswap-section-left,
     .bg-amweriswap-section-right
     {
-        width: 50%;
+        width: 100%;
     }
     .swap-box1
     {
@@ -488,4 +533,10 @@
     }
 
   
+}
+
+@media only screen and (max-width: 1440px) {
+    .bg-amweriswap-section-defi {
+        width: 80%;
+    }
 }
