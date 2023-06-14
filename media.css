@@ -55,9 +55,9 @@
         margin-top: 0px;
         float: none;
     }
-    .bg-amweriswap-section-defi {
+    /* .bg-amweriswap-section-defi {
         width: 90% !important;
-    }
+    } */
     .css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
         font-size: 0.675rem !important;
         min-width: 70px !important;
@@ -536,7 +536,7 @@
 }
 
 @media only screen and (max-width: 1440px) {
-    .bg-amweriswap-section-defi {
+    /* .bg-amweriswap-section-defi {
         width: 80%;
-    }
+    } */
 }
