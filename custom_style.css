@@ -181,18 +181,13 @@ header {
     color: #fff;
 } */
 
-.btn-wallet-approve {
-    background: #3ACB3A;
-    width: 190px;
-    border: 0;
-    border-radius: 50px;
-    padding: 5px;
-    color: #fff;
-    box-shadow: 0px 3px 6px 0px #ffe5e5;
-    height: 39px;
-    float: right;
-    cursor: pointer;
-    text-align: center;
+.btn-wallet-approve button {
+  width: 100%;
+  border: none;
+  color: #0a3060;
+  padding: 15px 0px;
+  border-radius: 10px !important;
+  background-color: #fff;
 }
 
 .btn-wallet span {
@@ -414,8 +409,8 @@ header {
 }
 
 .MuiSkeleton-root {
-    width: 140px;
-    height: 30px!important;
+    width: 100%;
+    height: 56px!important;
 }
 
 .portal {
@@ -640,8 +635,8 @@ header {
 }
 
 .swap-box-3 span.green {
-    color: #E4E8ED;
-    background-color: #3ACB3A;
+    color: #198754;
+    background-color: #E4E8ED;
     padding: 7px 10px 7px 10px;
     border-radius: 10px 10px 0px 10px;
     font-size: 12px;
@@ -651,7 +646,7 @@ header {
 }
 
 .swap-box-3 span.red {
-    color: #0a3161;
+    color: #b31942;
     background-color: #FFF1EE;
     padding: 7px 10px 7px 10px;
     border-radius: 10px 10px 0px 10px;
