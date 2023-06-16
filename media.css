@@ -16,6 +16,7 @@
         height: auto;
         padding: 12px 0px 21px 17px!important;
     }
+
     .swap-box-3 span.green {
         float: none!important;
         margin-right: 0!important;
@@ -102,9 +103,15 @@
     #token-modal {
         width: 87%;
     }
+    .header-content{
+        top: 0;
+    }
     .header-content1,
     .header-content2 {
       width: 100%;
+    }
+    .col-md-12.wallet-btn-wrapper {
+        margin-top: 13px;
     }
     .header-menu
     {
@@ -116,9 +123,10 @@
     }
     .content1
     {
-      left: 0px !important;
-      width: auto!important;
-      top: 90px!important;
+        width: 300px;
+        top: 99px !important;
+        position: relative;
+        left: 29px;
     }
     .content1 h1
     {
@@ -170,7 +178,7 @@
     }
 
     .bg-amweriswap-content1 {
-        height: 646px;
+        height: 916px;
         background-size: 1079px 1176px;
         background-position-x: center;
         background-color: #0A3161;
@@ -182,14 +190,14 @@
     }
 
     .container-header {
-        height: 937px;
+        height: auto;
         background: #0A3161;
     }
 
     .content1-2 {
         position: relative;
         height: auto;
-        top: 30px;
+        top: 70px;
     }
     
     .bg-amweriswap-content2
@@ -229,6 +237,8 @@
     {
         width: 100%;
         margin-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
     .swap-box1
     {

@@ -41,6 +41,8 @@ p, h6, label, span, li, a {
 
 header {
     padding-top: 13px;
+    position: absolute;
+    width: 100%;
 }
 
 .menu-buttons {
@@ -100,7 +102,17 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 893px;
+    height: 774px;
+}
+
+/* other pages */
+.bg-amweriswap-pages {
+    background-image: url(image/bg/bg2.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1200px;
 }
 
 .header-menu {
@@ -115,6 +127,7 @@ header {
 }
 .header-logo img {
     width: 200px;
+    cursor: pointer;
 }
 
 
@@ -130,7 +143,7 @@ header {
     background: #ffffff;
     width: 190px;
     border: 0;
-    border-radius: 15px !important;
+    border-radius: 10px !important;
     padding: 5px;
     color: #0a3060;
     height: 39px;
@@ -243,13 +256,15 @@ header {
 .header-content1 {
     width: 1160px;
     margin: 0 auto;
+    position: relative;
+    top: 32px;
 }
 
 .content1-2 {
     position: absolute;
     position: absolute;
     right: 0px;
-    top: 55px;
+    top: 145px;
 }
 
 
@@ -265,7 +280,7 @@ header {
     text-align: left;
     display: inline-block;
     position: absolute;
-    top: 175px;
+    top: 255px;
     left: 0;
 }
 
@@ -520,9 +535,10 @@ header {
     text-align: center;
     width: 1160px;
     margin: 0 auto;
-    padding-top: 40px;
-    height: 200px;
-    position: relative;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    /* height: 200px;
+    position: relative; */
 }
 
 .bg-amweriswap-section-defi {
@@ -540,6 +556,29 @@ header {
 .bg-amweriswap-section-defi span{
     color: #fff;
 }
+
+
+.bg-amweriswap-section-pages {
+    width: 1160px;
+    margin: 0 auto;
+    height: 200px;
+    position: relative;
+    top: 173px;
+}
+
+.bg-amweriswap-section-pages h1{
+    color: #fff;
+    padding: 30px 40px 0px 40px;
+    text-align: center;
+    background-color: #133155;
+    border-radius: 30px 30px 0px 0px;
+}
+
+.bg-amweriswap-section-pages span{
+    color: #fff;
+}
+
+
 
 .networks {
     width: 1160px;
@@ -661,7 +700,7 @@ header {
     background: #ffffff;
     width: 150px;
     border: 0;
-    border-radius: 15px !important;
+    border-radius: 10px !important;
     padding: 5px;
     color: #0a3060;
     height: 39px;
@@ -671,15 +710,51 @@ header {
     background: #ffffff;
     width: 150px;
     border: 0;
+    border-radius: 10px !important;
+    padding: 5px;
+    color: #0a3060;
+    height: 39px;
+}
+
+.btn-learn-more:hover,.btn-learn-more:active,.btn-learn-more-defi:hover,.btn-learn-more-defi:active {
+    background: #B31942;
+    color: #fff;
+}
+
+.btn-learn-more-fusion {
+    background: #ffffff;
+    width: 150px;
+    border: 0;
     border-radius: 15px !important;
     padding: 5px;
     color: #0a3060;
     height: 39px;
-    position: absolute;
-    bottom: 35px;
+    position: relative;
+    top: 35px;
 }
 
-.btn-learn-more:hover,.btn-learn-more:active,.btn-learn-more-defi:hover,.btn-learn-more-defi:active {
+.btn-learn-more-fusion:hover,.btn-learn-more-fusion:active {
+    background: #B31942;
+    color: #fff;
+}
+
+
+
+.btn-other-page {
+    background: #ffffff;
+    width: 150px;
+    border: 0;
+    border-radius: 15px !important;
+    padding: 5px;
+    color: #0a3060;
+    height: 39px;
+    position: relative;
+    top: 10px;
+    top: 5px;
+    left: 40px;
+}
+
+.btn-other-page:hover,.btn-other-page:active {
     background: #B31942;
     color: #fff;
 }
@@ -690,14 +765,14 @@ header {
     background-size: 1920px 750px;
     background-repeat: no-repeat;
     background-position: center; 
-    height: 434px;
+    height: 500px;
 }
 
 .bg-amweriswap-section4 {
     text-align: center;
     width: 1160px;
     margin: 0 auto;
-    padding-top: 40px;
+    padding-top: 80px;
     height: 200px;
     position: relative;
 }
@@ -755,7 +830,7 @@ header {
     text-align: center;
     width: 1160px;
     margin: 0 auto;
-    padding-top: 40px;
+    padding-top: 75px;
     height: 200px;
     position: relative;
     line-height: 19px;
@@ -786,14 +861,55 @@ header {
 
 .swap-box-fusion {
     background-color: #1b467a;
-    height: 442px;
+    height: 402px;
     border-radius: 20px;
-    padding: 20px 0 0 66px;
+    padding: 91px 0 0 66px;
     display: inline-block;
     text-align: left;
     position: relative;
     width: 100%;
+    background-image: url(https://1inch.io/img/news-block-background.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+.swap-box-page {
+    height: 600px;
+    padding: 40px 40px 0 40px;
+    display: inline-block;
+    text-align: left;
+    position: relative;
+    width: 100%;
+    overflow-x: hidden;
+}
+.row.section-pages-wrapper {
+    height: 830px;
+    background: #1b467a;
+    border-radius: 30px;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: rgba(0,0,0,0.3); 
+    border-radius: 50px;
+    margin-block: 30px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background-color: #6c757d;
+    border-radius: 50px;
+  }
+  
+ 
 
 .bg-amweriswap-content-products .products {
     background-color: #1b467a;
@@ -832,6 +948,16 @@ header {
     margin-top: 43px;
 }
 
+.swap-box-page .page-p {
+    width: 100%;
+    color: rgba(255,255,255,.6);
+    margin-bottom: 82px;
+}
+
+.swap-box-page .learn-page {
+    margin-top: 43px;
+}
+
 /*Content 6*/
 .bg-amweriswap-content6 {
     background-color: #0A3161;
@@ -845,7 +971,7 @@ header {
     text-align: left;
     width: 1160px;
     margin: 0 auto;
-    padding-top: 40px;
+    padding-top: 60px;
     height: 200px;
     position: relative;
     line-height: 19px;
@@ -911,7 +1037,7 @@ footer p {
     color: #fff;
 }
 
-.footer-section .row:nth-child(1) ul li a:link {
+.footer-section .row:nth-child(1) ul li a:link,.footer-section .row:nth-child(1) ul li a:visited,.footer-section .row:nth-child(1) ul li a:active {
     color: rgba(255,255,255,.6);
     text-decoration: none;
 }
@@ -924,6 +1050,7 @@ footer p {
 .footer-section .row:nth-child(2) {
     border-bottom: 1px solid #B31942;
     padding-bottom: 15px;
+    padding-top: 35px;
 }
 
 .footer-section img {
@@ -1040,7 +1167,7 @@ footer p {
     text-align: center;
 }
 
-.terms a:link {
+.terms a:link,.terms a:visited {
     color:  #fff;
     text-decoration: none;
     font-size: 13px;
