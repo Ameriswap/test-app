@@ -264,14 +264,14 @@ header {
     position: absolute;
     position: absolute;
     right: 0px;
-    top: 145px;
+    top: 165px;
 }
 
 
 .content1-2 h1 {
   color: #B31942;
   font-weight: bold;
-  height: 53px;
+  height: 40px;
   font-size: 46px;
 }
 
@@ -320,7 +320,9 @@ header {
     background-size: 1920px 750px;
     background-repeat: no-repeat;
     background-position: center; 
-    height: 367px;
+    height: 500px;
+    display: flex;
+    align-items: center;
 }
 
 .header-content2 {
@@ -345,7 +347,7 @@ header {
 }
 
 .swap-box1 input {
-    height: 80px;
+    height: 60px;
     border-radius: 15px;
 }
 
@@ -354,7 +356,7 @@ header {
     display: block;
     margin: auto;
     position: relative;
-    top: -22px;
+    top: -13px;
     /* left: 10px; */
     cursor: pointer;
     color: #1b467a;
@@ -371,7 +373,7 @@ header {
     height: 30px;
 }
 .swap-box1 .balance {
-    color: #A0A2A5;
+    color: #fff;
     height: 30px;
 }
 
@@ -388,9 +390,18 @@ header {
     position: relative;
 }
 
+.row-input-1 {
+    display: flex;
+    justify-content: space-between;
+}
+.row-input-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
 .btn-sell-buy #sell_btn, .btn-sell-buy #buy_btn {
     position: relative;
-    bottom: 57px;
+    bottom: 50px;
     float: right;
     right: 8px;
 }
@@ -404,17 +415,44 @@ header {
     background-color: #fff;;
 }
 .col-md-12.wallet-btn-wrapper {
-    margin-top: -25px;
+    margin-top: 10px;
 }
 
 /* Form Control */
 .form-control {
-    background-color: #305d8e !important;
+    background-color: transparent !important;
     border: none;
     color: #ffffff !important;
     font-size: 1.4rem !important;
 }
+.form-control:focus {
+    box-shadow: 0 0 0 0.15rem rgb(27 70 122 / 84%);
+}
 
+.col-md-12.input-1 {
+    width: 95%;
+    margin: auto;
+    background-color: #0f325c;
+    border-radius: 20px;
+    height: 112px;
+}
+.col-md-12.input-2 {
+    width: 95%;
+    margin: auto;
+    background-color: #0f325c;
+    border-radius: 20px;
+    height: 112px;
+}
+.row-input-1 {
+    padding: 10px 0px 0px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.row-input-2 {
+    padding: 10px 0px 0px 10px;
+    display: flex;
+    justify-content: space-between;
+}
 
 
 .content2-2nd {
@@ -496,6 +534,7 @@ header {
     text-align: left;
     color: #fff;
     font-size: 22px;
+    padding-left: 10px;
 }
 
 /*Content 3*/
@@ -504,7 +543,9 @@ header {
     background-size: 1920px 750px;
     background-repeat: no-repeat;
     background-position: center; 
-    height: 367px;
+    height: 600px;
+    display: flex;
+    align-items: center;
 }
 
 .bg-amweriswap-content-fusion {
@@ -512,7 +553,9 @@ header {
     background-size: 1920px 750px;
     background-repeat: no-repeat;
     background-position: center; 
-    height: 567px;
+    height: 600px;
+    display: flex;
+    align-items: center;
 }
 
 .bg-amweriswap-content-products {
@@ -544,8 +587,6 @@ header {
 .bg-amweriswap-section-defi {
     width: 1160px;
     margin: 0 auto;
-    padding-top: 40px;
-    height: 200px;
     position: relative;
 }
 
@@ -678,7 +719,7 @@ header {
     background-color: #E4E8ED;
     padding: 7px 10px 7px 10px;
     border-radius: 10px 10px 0px 10px;
-    font-size: 12px;
+    font-size: 11px;
     float: right;
     margin-right: 20px;
     margin-top: -4px;
@@ -689,7 +730,7 @@ header {
     background-color: #FFF1EE;
     padding: 7px 10px 7px 10px;
     border-radius: 10px 10px 0px 10px;
-    font-size: 12px;
+    font-size: 11px;
     float: right;
     margin-right: 20px;
     margin-top: -4px;
@@ -749,7 +790,6 @@ header {
     color: #0a3060;
     height: 39px;
     position: relative;
-    top: 10px;
     top: 5px;
     left: 40px;
 }
@@ -881,7 +921,7 @@ header {
     display: inline-block;
     text-align: left;
     position: relative;
-    width: 100%;
+    width: 99%;
     overflow-x: hidden;
 }
 .row.section-pages-wrapper {
