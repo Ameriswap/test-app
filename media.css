@@ -1,161 +1,10 @@
-
-@media only screen and (max-width: 367px) {
-    #text {
-        font-size: 16px;
-    }
-    .mobile {
-        display:block;
-    }
-    
-    .desktop {
-        display:none;
-    }
-    .swap-box-3
-    {
-        width:40%;
-        height: auto;
-        padding: 12px 0px 21px 17px!important;
-    }
-
-    .swap-box-3 span.green {
-        float: none!important;
-        margin-right: 0!important;
-        margin-top: 0!important;
-    }
-    .content1 img.future {
-        width: 250px;
-        
-    }
-    .bg-amweriswap-section6 .phone {
-        width: 100%;
-    }
-    .bg-amweriswap-section6 .appstore
-    {
-        width: 230px;
-    }
-    footer
-    {
-        height: 440px;
-    }
-    .copyright
-    {
-        top:365px;
-    }
-    .swap-box-3 h5
-    {
-        font-size: 16px;
-    }
-    .content1 h1
-    {
-        font-size: 27px;
-    }
-  }
-
-@media only screen and (max-width: 425px) {
-    .swap-box-3 span.red {
-        margin-top: 0px;
-        float: none;
-    }
-    /* .bg-amweriswap-section-defi {
-        width: 90% !important;
-    } */
-    .css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
-        font-size: 0.675rem !important;
-        min-width: 70px !important;
-    }
-  }
-
-@media only screen and (max-width: 520px) {
-    .footer-section .row .col-md-3 {
-        width: 50% !important;
-        margin: auto;
-        padding: 30px 10px 30px 10px;
-    }
-    .footer-section img {
-        width: 100px;
-        display: block;
-        margin: auto;
-        padding-bottom: 30px;
-    }
-  }
-
 @media only screen and (max-width: 600px) {
-    .row {
-        width: 100%;
-        margin: 0 auto !important;
-    }
-    .bg-amweriswap-content-products {
-        height: auto;
-    }
-
-    .bg-amweriswap-content-products .products {
-        width: 95%;
-        margin: 0 auto;
-        height: auto;
-        padding: 25px;
-        display: block;
-        margin-top: 10px;
-    }
-
-    .bg-amweriswap-content-fusion {
-        height: auto;
-    }
-
-    .btn-learn-more-fusion {
-        bottom: 17px !important;
-        left: 30px !important;
-    }
-
-    .swap-box-fusion .fusion-p {
-        width: 100%;
-        padding: 21px;
-    }
-
-    .swap-box-fusion {
-        padding: 0!important;
-        height: 289px;
-    }
-
-    #simple-tabpanel-3,.MuiBox-root.css-19kzrtu {
-        text-align: center!important;
-    }
-
-    .bg-amweriswap-content,.bg-amweriswap-section-defi {
-        height: auto!important;
-    }
-
-    .bg-amweriswap-section-defi h1 {
-        text-align: center;
-    }
-
-    .bg-amweriswap-section-defi,.bg-amweriswap-section-left {
-        width: 90%;
-    }
-
-    .bg-amweriswap-section-right {
-        left: 0!important;
-        margin-bottom: 0!important;
-        margin: 0 auto;
-    }
-
-    .bg-amweriswap-content-networks {
-        height: auto;
-    }
-
-    .networks h1 {
-        font-size: 28px;
-    }
-
-    .networks {
-        width: 90%;
-    }
-
     .btn-wallet {
         width: 100%;
     }
 
     .swap-box1 .first-row {
-        height: 230px;
+        height: 340px;
     }
 
     .portal {
@@ -173,15 +22,9 @@
     #token-modal {
         width: 87%;
     }
-    .header-content{
-        top: 0;
-    }
     .header-content1,
     .header-content2 {
       width: 100%;
-    }
-    .col-md-12.wallet-btn-wrapper {
-        margin-top: 13px;
     }
     .header-menu
     {
@@ -193,10 +36,9 @@
     }
     .content1
     {
-        width: 100%;
-        top: 99px !important;
-        position: relative;
-        text-align: center;
+      left: 0px !important;
+      width: auto!important;
+      top: 90px!important;
     }
     .content1 h1
     {
@@ -212,7 +54,7 @@
         
     }
     .bg-amweriswap-content5 {
-        height: 570px;
+        height: 520px;
     }
     .bg-amweriswap-section
     {
@@ -248,7 +90,7 @@
     }
 
     .bg-amweriswap-content1 {
-        height: 916px;
+        height: 646px;
         background-size: 1079px 1176px;
         background-position-x: center;
         background-color: #0A3161;
@@ -260,14 +102,14 @@
     }
 
     .container-header {
-        height: auto;
+        height: 937px;
         background: #0A3161;
     }
 
     .content1-2 {
         position: relative;
         height: auto;
-        top: 70px;
+        top: 30px;
     }
     
     .bg-amweriswap-content2
@@ -307,18 +149,16 @@
     {
         width: 100%;
         margin-top: 20px;
-        padding-left: 20px;
-        padding-right: 20px;
     }
     .swap-box1
     {
         height: auto;
     }
     .swap-box1 .swap {
-        width: 26px;
+        width: 50px;
         position: relative;
+        top: 0 !important;
         left: 0px;
-        top: -12px !important;
     }
     .swap-box1 .swap-container {
         position: relative;
@@ -339,15 +179,8 @@
     .swap-box-4{
         width: 90%;
         height: auto;
-        margin: 0 auto;
-        padding: 21px;
-        margin-bottom: 20px;
+        margin: 0px 0px 17px 0px;
     }
-    .swap-box-4 .container-img {
-        text-align: center;
-        margin-top: 40px;
-    }
-
     .swap-box-4 img.last_img
     {
         position: relative;
@@ -359,7 +192,7 @@
     }
     .swap-box-5{
         width: 90%;
-        margin: 0 auto;
+        margin: 0px 0px 17px 0px;
         background-size: contain;
     }
     .bg-amweriswap-section6
@@ -374,9 +207,7 @@
     .bg-amweriswap-section6 .left-section
     {
         width: 90%;
-        margin: auto;
         padding-top: 0px;
-        text-align: center;
     }
     .bg-amweriswap-section6 .phone
     {
@@ -389,15 +220,12 @@
     .footer-content-left
     {
         width:100%;
-        text-align: center;
     }
     .footer-content-right
     {
         width: 100%;
-        top: 15px;
+        top: 0;
         right: 8px;
-        display: flex;
-        justify-content: center;
     }
     .footer-section
     {
@@ -420,45 +248,58 @@
         top:10px;
     }
 
-    .row-input-1 {
-        padding: 15px 15px 0px 10px;
-    }
-    .row-input-2 {
-        padding: 15px 15px 0px 10px;
-    }
-    .col-md-12.input-1 {
-        background-color: #0f325c;
-        border-radius: 20px;
-        width: 95%;
-        margin: auto;
-        height: 110px;
-    }
-    .col-md-12.input-2 {
-        background-color: #0f325c;
-        border-radius: 20px;
-        width: 95%;
-        margin: auto;
-        height: 110px;
-        margin-bottom: 70px;
-    }
-    .swap-box1 input {
-        height: 60px;
-    }
-    .form-control {
-        background-color: transparent !important;
-    }
-    .btn-sell-buy #sell_btn, .btn-sell-buy #buy_btn {
-        position: relative;
-        bottom: 45px;
-    }
-
-    .swap-box-fusion {
-        width: 90% !important;
-        margin: 0 auto;
-    }
-
   }
 
+  @media only screen and (max-width: 367px) {
+    #text {
+        font-size: 16px;
+    }
+    .mobile {
+        display:block;
+    }
+    
+    .desktop {
+        display:none;
+    }
+    .swap-box-3
+    {
+        width:40%;
+        height: auto;
+        padding: 12px 0px 21px 17px!important;
+    }
+    .swap-box-3 span.green {
+        float: none!important;
+        margin-right: 0!important;
+        margin-top: 0!important;
+    }
+    .content1 img.future {
+        width: 250px;
+        
+    }
+    .bg-amweriswap-section6 .phone {
+        width: 100%;
+    }
+    .bg-amweriswap-section6 .appstore
+    {
+        width: 230px;
+    }
+    footer
+    {
+        height: 440px;
+    }
+    .copyright
+    {
+        top:365px;
+    }
+    .swap-box-3 h5
+    {
+        font-size: 16px;
+    }
+    .content1 h1
+    {
+        font-size: 27px;
+    }
+  }
 
   /* Landscape */
   @media only screen and (max-width: 900px) and (min-width: 600px) {
@@ -577,16 +418,6 @@
 
 }
 
-@media only screen and (max-width: 625px) {
-    .header-menu .mobile {
-        display: inline;
-    }
-    .header-menu .desktop {
-        display: none;
-    }
-
-}
-
 @media only screen and (min-width: 900px) and (max-width: 1180px) {
     .content1 img.future {
         width: 575px;
@@ -602,7 +433,7 @@
     .bg-amweriswap-section-left,
     .bg-amweriswap-section-right
     {
-        width: 100%;
+        width: 50%;
     }
     .swap-box1
     {
@@ -657,27 +488,4 @@
     }
 
   
-}
-
-@media only screen and (max-width: 1225px) {
-    .networks {
-        width: 100%;
-        margin: auto;
-    }
-    .bg-amweriswap-section-defi {
-        width: 100%;
-        margin: auto;
-    }
-    .swap-box-fusion {
-        width: 99%;
-    }
-
-}
-
-
-
-@media only screen and (max-width: 1440px) {
-    /* .bg-amweriswap-section-defi {
-        width: 80%;
-    } */
 }
