@@ -1,10 +1,259 @@
+
+@media only screen and (max-width: 367px) {
+    #text {
+        font-size: 16px;
+    }
+    .mobile {
+        display:block;
+    }
+    
+    .desktop {
+        display:none;
+    }
+    .swap-box-3
+    {
+        width:40%;
+        height: auto;
+        padding: 12px 0px 21px 17px!important;
+    }
+
+
+    .swap-box-3 span.green {
+        float: none!important;
+        margin-right: 0!important;
+        margin-top: 0!important;
+    }
+    .content1 img.future {
+        width: 250px;
+        
+    }
+    .bg-amweriswap-section6 .phone {
+        width: 100%;
+    }
+    .bg-amweriswap-section6 .appstore
+    {
+        width: 230px;
+    }
+    footer
+    {
+        height: 440px;
+    }
+    .copyright
+    {
+        top:365px;
+    }
+    .swap-box-3 h5
+    {
+        font-size: 16px;
+    }
+    .content1 h1
+    {
+        font-size: 27px;
+    }
+  }
+
+@media only screen and (max-width: 375px) {
+    .bg-amweriswap-section5 {
+        padding-top: 50px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .swap-box-3 span.red {
+        margin-top: 0px;
+        float: none;
+    }
+    /* .bg-amweriswap-section-defi {
+        width: 90% !important;
+    } */
+    .css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+        font-size: 0.675rem !important;
+        min-width: 70px !important;
+    }
+    .swap-box1 .from {
+        font-size: 14px;
+    }
+    .swap-box1 .balance {
+        font-size: 14px;
+    }
+
+    .network-box {
+        width: 30%;
+    }
+    .networks img {
+        width: 55px;
+    }
+    .network-box .container-img {
+        height: 90px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    span.overlay {
+        width: 100%;
+        margin: auto;
+    }
+  }
+
+@media only screen and (max-width: 520px) {
+    .footer-section .row .col-md-3 {
+        width: 50% !important;
+        margin: auto;
+        padding: 30px 10px 30px 10px;
+        text-align: left;
+    }
+    .footer-section img {
+        width: 100px;
+        display: block;
+        margin: auto;
+        padding-bottom: 30px;
+    }
+  }
+
 @media only screen and (max-width: 600px) {
+    .header-menu {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    button.btn-wallet.portal {
+        background-color: #fff;
+        color: #0f325c;
+        border-radius: 7px !important;
+    }
+    .connect-network-menu {
+        margin-right: 20px;
+    }
+    .bg-amweriswap-content-products .products img {
+        padding: 26px;
+    }
+    .bg-amweriswap-content-sheild .sheild {
+        padding: 25px 0px 0 0px;
+        margin: 0;
+    }
+    .bg-amweriswap-section-defi {
+        text-align: center;
+    }
+    .bg-amweriswap-section-defi {
+        padding-top: 25px;
+    }
+    .btn-learn-more {
+        position: relative;
+        bottom: 0;
+        left: 8px;
+    }
+
+    .bg-amweriswap-content-products .products {
+        height: 397px;
+    }
+    .btn-learn-more-sheild{
+        font-size: 18px;
+    }
+    .bg-amweriswap-content-sheild .sheild p {
+        font-size: 19px;
+    }
+    .bg-amweriswap-content-sheild .sheild img {
+        width: 100%;
+    }
+    .bg-amweriswap-section-defi-sheild p {
+        font-size: 16px;
+    }
+
+    .bg-amweriswap-section-defi-sheild,.bg-amweriswap-content-sheild h1 {
+        text-align: center;
+        width: 100%;
+        font-size: 37px;
+        padding: 0 10px 0 10px;
+    }
+
+    .row {
+        margin: 0 auto !important;
+    }
+    .bg-amweriswap-content-products {
+        height: auto;
+    }
+
+    .bg-amweriswap-content-products .products {
+        width: 95%;
+        margin: 0 auto;
+        height: auto;
+        padding: 25px;
+        display: block;
+        margin-top: 10px;
+    }
+
+    .bg-amweriswap-content-fusion {
+        height: auto;
+        padding-top: 80px;
+    }
+
+    .btn-learn-more-fusion {
+        bottom: 17px !important;
+        left: 30px !important;
+    }
+
+    .swap-box-fusion .fusion-p {
+        width: 100%;
+        padding: 21px;
+    }
+
+    .swap-box-fusion {
+        padding: 0!important;
+        height: 289px;
+    }
+    .swap-box-fusion h1 {
+        text-align: left !important;
+        padding: 20px 0px 0px 30px;
+    }
+
+    #simple-tabpanel-3,.MuiBox-root.css-19kzrtu {
+        text-align: center!important;
+    }
+
+    .bg-amweriswap-content,.bg-amweriswap-section-defi {
+        height: auto!important;
+    }
+
+    .bg-amweriswap-section-defi h1 {
+        text-align: center;
+    }
+
+    .bg-amweriswap-section-defi,.bg-amweriswap-section-left {
+        width: 90%;
+    }
+
+    .bg-amweriswap-section-right {
+        left: 0!important;
+        margin-bottom: 0!important;
+        margin: 0 auto;
+    }
+
+    .bg-amweriswap-content-networks {
+        height: auto;
+    }
+
+    .networks h1 {
+        font-size: 28px;
+        font-size: 28px;
+        padding: 50px 10px;
+    }
+    
+    .network-box {
+        padding: 20px 0px;
+    }
+
+    .networks {
+        width: 90%;
+    }
+    span.overlay {
+        left: 0;
+    }
+
     .btn-wallet {
         width: 100%;
     }
 
     .swap-box1 .first-row {
-        height: 340px;
+        height: 230px;
     }
 
     .portal {
@@ -22,28 +271,36 @@
     #token-modal {
         width: 87%;
     }
+    .header-content{
+        top: 0;
+    }
     .header-content1,
     .header-content2 {
       width: 100%;
     }
+    .col-md-12.wallet-btn-wrapper {
+        margin-top: 13px;
+    }
     .header-menu
     {
      position: relative;
-     width: 93%;
+     width: 100%;
     }
     .connect-wallet-menu {
         float: none;
     }
     .content1
     {
-      left: 0px !important;
-      width: auto!important;
-      top: 90px!important;
+        width: 96%;
+        top: 99px !important;
+        left: 9px;
+        position: relative;
+        text-align: center;
     }
     .content1 h1
     {
         font-size: 32px;
-        height: 108px;
+        height: auto;
     }
     .content1 h6
     {
@@ -54,18 +311,19 @@
         
     }
     .bg-amweriswap-content5 {
-        height: 520px;
-    }
+        height: 570px;
+    }.bg-amweriswap-section-right
     .bg-amweriswap-section
     {
         width:100%;
-        padding-top: 25px!important;
+        padding-top: 50px!important;
+        padding-bottom: 25px;
     }
    
     .bg-amweriswap-section-right
     {
-        width: 80%;
-        float: left;
+        width: 100%;
+        padding-top: 80px;
         left: 10%;
         margin-bottom: 75px;
     }
@@ -80,17 +338,12 @@
         height: auto;
         padding: 12px 0px 21px 17px!important;
     }
-    .swap-box-3 span.green {
-        float: none!important;
-        margin-right: 0!important;
-        margin-top: 0!important;
-    }
     .bg-amweriswap-content {
         height: 492px;
     }
 
     .bg-amweriswap-content1 {
-        height: 646px;
+        height: 800px;
         background-size: 1079px 1176px;
         background-position-x: center;
         background-color: #0A3161;
@@ -102,14 +355,14 @@
     }
 
     .container-header {
-        height: 937px;
+        height: auto;
         background: #0A3161;
     }
 
     .content1-2 {
         position: relative;
         height: auto;
-        top: 30px;
+        top: 70px;
     }
     
     .bg-amweriswap-content2
@@ -149,16 +402,19 @@
     {
         width: 100%;
         margin-top: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     .swap-box1
     {
         height: auto;
+        border-radius: 20px;
     }
     .swap-box1 .swap {
-        width: 50px;
+        width: 26px;
         position: relative;
-        top: 0 !important;
         left: 0px;
+        top: -12px !important;
     }
     .swap-box1 .swap-container {
         position: relative;
@@ -177,10 +433,17 @@
         height: auto;
     }
     .swap-box-4{
-        width: 90%;
+        width: 95%;
         height: auto;
-        margin: 0px 0px 17px 0px;
+        margin: 0 auto;
+        padding: 21px;
+        margin-bottom: 20px;
     }
+    .swap-box-4 .container-img {
+        text-align: center;
+        margin-top: 40px;
+    }
+
     .swap-box-4 img.last_img
     {
         position: relative;
@@ -192,7 +455,7 @@
     }
     .swap-box-5{
         width: 90%;
-        margin: 0px 0px 17px 0px;
+        margin: 0 auto;
         background-size: contain;
     }
     .bg-amweriswap-section6
@@ -207,11 +470,16 @@
     .bg-amweriswap-section6 .left-section
     {
         width: 90%;
+        margin: auto;
         padding-top: 0px;
+        text-align: center;
     }
     .bg-amweriswap-section6 .phone
     {
-        width: 100%;
+        width: 60%;
+        margin: auto;
+        display: block;
+        padding: 50px 0px;
     }
     footer
     {
@@ -220,12 +488,16 @@
     .footer-content-left
     {
         width:100%;
+        text-align: center;
     }
     .footer-content-right
     {
         width: 100%;
-        top: 0;
-        right: 8px;
+        top: 15px;
+        right: 0px;
+        display: flex;
+        justify-content: center;
+        float: none;
     }
     .footer-section
     {
@@ -246,60 +518,94 @@
     .copyright
     {
         top:10px;
+        text-align: center;
     }
 
+    .row-input-1 {
+        padding: 15px 15px 0px 10px;
+    }
+    .row-input-2 {
+        padding: 15px 15px 0px 10px;
+    }
+    .col-md-12.input-1 {
+        background-color: #0f325c;
+        border-radius: 10px;
+        width: 95%;
+        margin: auto;
+        height: 110px;
+    }
+    .col-md-12.input-2 {
+        background-color: #0f325c;
+        border-radius: 10px;
+        width: 95%;
+        margin: auto;
+        height: 110px;
+        margin-bottom: 70px;
+    }
+    .swap-box1 input {
+        height: 60px;
+    }
+    .form-control {
+        background-color: transparent !important;
+    }
+    .btn-sell-buy #sell_btn, .btn-sell-buy #buy_btn {
+        position: relative;
+        bottom: 45px;
+    }
+
+    .swap-box-fusion {
+        width: 95% !important;
+        margin: 0 auto;
+    }
+
+    .MuiBox-root.css-8atqhb img {
+        width: 80%;
+    }
+
+    .swapbox-3-desktop {
+        display: none !important;
+    }
+
+    .swapbox-3-mobile-wapper {
+        display: block;
+    }
+    .swapbox-3-mobile-wapper {
+        width: 95%;
+        margin: auto;
+        color: #fff;
+    }
+    .swapbox-3-mobile-wapper img {
+        width: 25px;
+        margin-bottom: 5px;
+    }
+    .col-sm-12.swapbox-3-mobile {
+        background-color: #1b467a;
+        padding: 20px 0px;
+        border-radius: 15px;
+        margin-top: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .col-sm-12.swapbox-3-mobile .red {
+        color: #ce5072;
+        font-size: 12px;
+    }
+    .col-sm-12.swapbox-3-mobile .green {
+        color: #15ae15;
+        font-size: 12px;
+    }
+    .crypto-coin {
+        width: 30%;
+        text-align: left;
+    }
+    .col-sm-12.swapbox-3-mobile h5 {
+        width: 30%;
+        text-align: left;
+    }
   }
 
-  @media only screen and (max-width: 367px) {
-    #text {
-        font-size: 16px;
-    }
-    .mobile {
-        display:block;
-    }
-    
-    .desktop {
-        display:none;
-    }
-    .swap-box-3
-    {
-        width:40%;
-        height: auto;
-        padding: 12px 0px 21px 17px!important;
-    }
-    .swap-box-3 span.green {
-        float: none!important;
-        margin-right: 0!important;
-        margin-top: 0!important;
-    }
-    .content1 img.future {
-        width: 250px;
-        
-    }
-    .bg-amweriswap-section6 .phone {
-        width: 100%;
-    }
-    .bg-amweriswap-section6 .appstore
-    {
-        width: 230px;
-    }
-    footer
-    {
-        height: 440px;
-    }
-    .copyright
-    {
-        top:365px;
-    }
-    .swap-box-3 h5
-    {
-        font-size: 16px;
-    }
-    .content1 h1
-    {
-        font-size: 27px;
-    }
-  }
 
   /* Landscape */
   @media only screen and (max-width: 900px) and (min-width: 600px) {
@@ -308,7 +614,7 @@
     }
     .header-menu
     {
-        width: 90%;
+        width: 100%;
     }
     .header-content1
     {
@@ -396,7 +702,10 @@
     }
     .bg-amweriswap-section6 .phone
     {
-        width: 100%;
+        width: 60%;
+        margin: auto;
+        display: block;
+        padding: 50px 0px;
     }
     .footer-section
     {
@@ -413,8 +722,19 @@
     .copyright
     {
         left: 3%;
+        text-align: center;
     }
 
+
+}
+
+@media only screen and (max-width: 625px) {
+    .header-menu .mobile {
+        display: inline;
+    }
+    .header-menu .desktop {
+        display: none;
+    }
 
 }
 
@@ -433,7 +753,7 @@
     .bg-amweriswap-section-left,
     .bg-amweriswap-section-right
     {
-        width: 50%;
+        width: 100%;
     }
     .swap-box1
     {
@@ -443,9 +763,10 @@
     {
         width:89%;
     }
+
     .bg-amweriswap-content4
     {
-        height: 615px;
+        height: 715px;
     }
     .bg-amweriswap-section4
     {
@@ -463,8 +784,12 @@
     {
         margin-left: 45px;
     }
+    .bg-amweriswap-content6 {
+            height: 600px;
+    }
     .bg-amweriswap-section6 .phone {
-        width: 545px;
+        width: 345px;
+        padding-top: 50px;
     }
     .footer-content-left
     {
@@ -488,4 +813,52 @@
     }
 
   
+}
+
+@media only screen and (max-width: 1225px) {
+    .row {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+    .networks {
+        width: 100%;
+        margin: auto;
+    }
+    .bg-amweriswap-section-defi {
+        width: 100%;
+        margin: auto;
+    }
+    .swap-box-fusion {
+        width: 95%;
+    }
+
+    .bg-amweriswap-section4 {
+        width: 100%;
+    }
+    .bg-amweriswap-content-products h1 {
+        padding-left: 30px;
+    }
+    .header-content2.row {
+        display: flex;
+        justify-content: flex-start;
+    }
+    .bg-amweriswap-section-defi-sheild {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .bg-amweriswap-content-products .products {
+        width: 48%;
+        margin: 0 auto;
+        margin-top: 25px;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 1440px) {
+    /* .bg-amweriswap-section-defi {
+        width: 80%;
+    } */
 }
