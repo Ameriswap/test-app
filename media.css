@@ -623,6 +623,20 @@
     .css-iajp3t-MuiButtonGroup-root .MuiButtonGroup-grouped {
         min-width: 80px !important;
     }
+
+
+    /* Terms */
+    .bg-amweriswap-section-pages {
+        width: 95% !important;
+        margin: 0 auto;
+    }
+    .bg-amweriswap-section-pages .row {
+        display: flex;
+        justify-content: flex-start;
+    }
+    .bg-amweriswap-section-pages h1 {
+        padding: 30px 10px 0px 10px;
+    }
   }
 
 

@@ -21,9 +21,9 @@ font-style : normal;
              url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.ttf?v=4.3.0") format("truetype"),
              url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular") format("svg");
 }
-p, h6, label, span, li, a {
+/* p, h6, label, span, li, a {
     font-family: Roboto;
-}
+} */
 
 
 .mobile {
@@ -1420,4 +1420,8 @@ div.MuiPaper-root {
     border-radius: 15px !important;
     margin-top: 5px !important;
     box-shadow: none !important;
+}
+
+.css-vubbuv {
+    font-size: 1rem !important;
 }
