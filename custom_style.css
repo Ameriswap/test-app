@@ -2,10 +2,10 @@
     font-family: Arboria;
     src: url(arboria.ttf);
 }
-@font-face {
+/* @font-face {
     font-family: Roboto;
     src: url(roboto.ttf);
-}
+} */
 * {
     font-family: Arboria;
 }
@@ -1420,4 +1420,9 @@ div.MuiPaper-root {
     border-radius: 15px !important;
     margin-top: 5px !important;
     box-shadow: none !important;
+}
+
+div#swap-wrap .css-vubbuv {
+    font-size: 1rem !important;
+    margin-bottom: 3px;
 }
