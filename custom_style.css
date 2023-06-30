@@ -48,6 +48,9 @@ header {
 .menu-buttons {
     padding-top: 10px;
 }
+button.btn-wallet.portal {
+    background-color: #2563eb;
+}
 
 .header-wrap {
   width: 100%;
@@ -102,7 +105,7 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 675px;
+    height: 835px;
 }
 .bg-amweriswap-content1 h2 {
     color: #fff;
@@ -681,7 +684,7 @@ header {
 }
 
 .network-box .container-img {
-    height: 115px;
+    height: 88px;
 }
 
 .networks .row:nth-child(1),.networks .row:nth-child(2) {
@@ -841,8 +844,7 @@ header {
 .css-iajp3t-MuiButtonGroup-root .MuiButtonGroup-grouped:hover,
 .css-iajp3t-MuiButtonGroup-root .MuiButtonGroup-grouped:active
 {
-    background: #1b467a;
-    border: 1px solid #0A3161;
+    background: #2563eb;
     color: #fff;
 }
 
@@ -1364,45 +1366,58 @@ footer p {
 
 .network-wrapper {
     position: relative;
-    transition: .5s ease;
 }
-span.overlay {
-    font-size: 14px;
-    padding: 3px 10px;
-    border-radius: 5px;
-    position: relative;
-    color: #fff;
-    top: -3px;
-    background-color: #2222224d;
-    /* text-shadow: -1px 1px 0 #fff, 1px 0px 0 #fff, 1px -1px 0 #fff, -1px -1px 0 #ffff; */
-}
-/* .network-wrapper:hover {
-    scale: 1.1;
-    transition: .5s ease;
-}
-span.overlay {
+
+.overlay {
     position: absolute;
-    opacity: 0.9;
+    opacity: 0.3;
     width: 140px;
-    height: 140px;
+    height: 120px;
     color: #fff;
     font-weight: bold;
-    transition: .5s ease;
     background-color: #0c376c;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 15px;
     left: -13px;
-    scale: 1.1;
+    top: 0px;
+    scale: 1.2;
 }
-span.overlay:hover {
-    opacity: 0;
-    transition: .5s ease;
+span.overlay-text {
+    position: absolute;
+    left: -11px;
+    top: 35px;
+    width: 139px;
+    font-weight: bold;
+    color: #fff;
+    font-size: 15px;
+    text-shadow: 1px 1px #000;
+}
+/* span.overlay {
+    font-size: 14px;
+    width: 100px;
+    padding: 3px 10px;
+    border-radius: 5px;
+    position: absolute;
+    color: #fff;
+    top: -25px;
+    left: 7px;
+    background-color: #2222224d;
 } */
+
+
 
 button.MuiButtonBase-root.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeMedium.MuiButton-textSizeMedium.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeMedium.MuiButton-textSizeMedium.css-1e6y48t-MuiButtonBase-root-MuiButton-root {
     border: 0.5px solid #2c517e !important;
     border-radius: 10px !important;
     margin: 5px;
+}
+
+div.MuiPaper-root {
+    background: transparent !important;
+    color: #fff;
+    border-radius: 15px !important;
+    margin-top: 5px !important;
+    box-shadow: none !important;
 }

@@ -78,7 +78,7 @@
     }
 
     .network-box {
-        width: 30%;
+        width: 35%;
     }
     .networks img {
         width: 55px;
@@ -89,16 +89,24 @@
         align-items: center;
         justify-content: center;
     }
-    span.overlay {
+    .overlay {
         width: 100%;
         margin: auto;
+        width: 85%;
+        margin: auto;
+        left: 7px;
+    }
+    span.overlay-text {
+        left: 3px !important;
+        font-size: 13px;
+        top: 50px !important;
     }
   }
 
 @media only screen and (max-width: 520px) {
     .footer-section .row .col-md-3 {
         width: 50% !important;
-        margin: auto;
+        margin: 0px;
         padding: 30px 10px 30px 10px;
         text-align: left;
     }
@@ -173,7 +181,7 @@
     }
 
     .bg-amweriswap-content-products .products {
-        width: 95%;
+        width: 95% !important;
         margin: 0 auto;
         height: auto;
         padding: 25px;
@@ -244,8 +252,16 @@
     .networks {
         width: 90%;
     }
-    span.overlay {
-        left: 0;
+    .overlay {
+        width: 100%;
+        margin: auto;
+        width: 85%;
+        margin: auto;
+        left: 7px;
+    }
+    span.overlay-text {
+        left: 0px;
+        top: 40px;
     }
 
     .btn-wallet {
@@ -603,6 +619,9 @@
     .col-sm-12.swapbox-3-mobile h5 {
         width: 30%;
         text-align: left;
+    }
+    .css-iajp3t-MuiButtonGroup-root .MuiButtonGroup-grouped {
+        min-width: 80px !important;
     }
   }
 
